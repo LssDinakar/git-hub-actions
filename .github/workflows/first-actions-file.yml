@@ -14,4 +14,4 @@ jobs:
       - name: pathdetails
         run: |  
             sudo echo "$PATH"
-            sudo echo "printenv"
+            sudo printenv
