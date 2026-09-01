@@ -11,5 +11,7 @@ jobs:
 
       - name: HostName
         run: sudo hostname
-      - name: Hostname-Ubuntu
-        run: sudo echo "$HOSTNAME"
+      - name: pathdetails
+        run: |  
+            sudo echo "$PATH"
+            sudo echo "env"
