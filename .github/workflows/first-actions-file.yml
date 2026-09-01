@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: OS-Name
-        run: cat /etc/os-release
+        run: sudo cat /etc/os-release
 
       - name: HostName
-        run: hostname
+        run: sudo hostname
