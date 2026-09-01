@@ -12,4 +12,4 @@ jobs:
       - name: HostName
         run: sudo hostname
       - name: Hostname-Ubuntu
-        run: sudo $HOSTNAME
+        run: sudo echo "$HOSTNAME"
