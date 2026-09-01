@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: OS-Name
-        run: echo "/etc/os-release"
+        run: cat "/etc/os-release"
       - name: HostName
         run: echo "$HOSTNAME"
