@@ -1,10 +1,14 @@
 name: First name
+
 on: workflow_dispatch
+
 jobs:
-  First-job: 
+  First-job:
     runs-on: ubuntu-latest
+
     steps:
       - name: OS-Name
-        run: cat "/etc/os-release"
+        run: cat /etc/os-release
+
       - name: HostName
         run: echo "$HOSTNAME"
