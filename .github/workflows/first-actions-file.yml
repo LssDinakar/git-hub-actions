@@ -15,3 +15,5 @@ jobs:
         run: |  
             sudo echo "$PATH"
             sudo printenv
+      - name: Current-Directory
+        run: sudo pwd
